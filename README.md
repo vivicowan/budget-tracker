@@ -2,15 +2,12 @@
 
 ## Heroku Deployment Link
   
-  [Fitness Tracker App](https://warm-scrubland-57864.herokuapp.com/)
+  [Budget Tracker App](https://immense-springs-27873.herokuapp.com/)
 
 ## Description: 
-- For this task, I wanted to allow users to view and track daily workouts. As they add a new workout, the total duration of the exercises are added up for the day. 
-- The reason I built this fitness tracker was to learn more about Mongoose and MongoDB.  
-- This task helped me gain a better understanding of using the MongoDB and how to adjust to a NoSQL database.
-
-## Dashboard:
-![dashboard](./img/dashboard.png)
+- For this task, I wanted to allow users to view a chart that allows them to add and subtract funds. This app would allow users to be able to track their own personal budget. 
+- The reason I built this fitness tracker was to learn more about MongoDB and creating a PWA with service workers and a manifest.  
+- This task helped me gain a better understanding of creating PWA and how to deploy on Heroku with MongoDB Atlas.
 
 ## Tracker:
-![tracker](./img/tracker.png)
+![tracker](./images/budget.png)
