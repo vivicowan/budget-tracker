@@ -18,7 +18,6 @@ self.addEventListener("install", function (evt) {
     caches.open(DATA_CACHE_NAME).then((cache) => cache.add("/api/images"))
   );
 
-  // pre cache all static assets
   evt.waitUntil(
     caches.open(CACHE_NAME).then((cache) => cache.addAll(FILES_TO_CACHE))
   );
@@ -74,7 +73,6 @@ self.addEventListener("fetch", function (evt) {
     );
     return; // return so that no else block is needed
   }
-
   evt.respondWith(
     caches.open(CACHE_NAME).then((cache) => {
       return cache.match(evt.request).then((response) => {
